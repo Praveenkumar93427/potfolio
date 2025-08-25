@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Praveenkumar S</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#Experience">Experience</a></li>
+          <li><a href="#Certificate">Certificate</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Praveenkumar</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#Experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#Certificate" onclick="toggleMenu()">Certificate</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section_pic-container">
+        <img src="./src/cropped_circle_image.png" alt="Praveenkumar" />
+      </div>
+      <div class="section_text">
+        <p class="section_text_p1">Hello,I'm</p>
+        <h1 class="title">Praveenkumar</h1>
+        <p class="section_text_p2">Java FullStack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./src/PraveenKumar_resume_word_2025.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#Contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./src/linkedin.webp"
+            alt="linkedin profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/praveen-kumar-s-28bba333a'"
+          />
+          <img
+            src="./src/github.png"
+            alt="Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Praveenkumar93427'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section_text_p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section_pic-container">
+          <img src="./src/about1.jpg" alt="about-pic" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./src/experience.png"
+                alt="experience-icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>6+Months<br />Frontend Developement</p>
+            </div>
+            <div class="details-container">
+              <img src="./src/education.png" alt="education" class="icon" />
+              <h3>Education</h3>
+              <p>BSC-Computer Science</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a passionate and self-driven web developer with a strong
+              foundation in both front-end and back-end development. I completed
+              my undergraduate degree through an in-depth YouTube course on web
+              development, where I gained hands-on experience by building
+              several e-commerce projects. My journey began with mastering
+              front-end technologies, and I have since expanded my skills to
+              back-end development, continuously learning and applying new
+              techniques.I am now actively working on enhancing my expertise in
+              backend technologies and striving to create seamless, user-centric
+              web applications.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./src/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#Experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Developement</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>BootStrap</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tailwind CSS</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Developement</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SpringBoot</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>My SQL</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Rest API</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./src/checkmark.png"
+                  alt="experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <img
+        src="./src/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#Certificate'"
+      />
+    </section>
+    <section id="Certificate">
+      <p class="section_text_p1">Explore My</p>
+      <h1 class="title">Certificate</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./src/certificate_cropped.jpg"
+            alt="C++_intermediate"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">C&C++</h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-1 "
+                  onclick="location.href=''"
+                >
+                  Lincense</button
+                >
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('./src/certificate_cropped.jpg')"
+                >
+                  Download Certificate
+                </button>
+        </div>
+        <br />
+      </div> <span><br></span>
+      <div class="details-container color-container">
+        <div class="article-container">
+          <img
+            src="./assests/Screenshot (6).png"
+            alt="java_basic"
+            class="project-img"
+          />
+        </div>
+        <h2 class="experience-sub-title project-title">Fundamendals of Java FullStack</h2>
+        <div class="btn-container">
+          <button
+                  class="btn btn-color-1 "
+                  onclick="location.href=''"
+                >
+                  Lincense</button
+                >
+          <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('./assests/react_basic certificate.pdf')"
+                >
+                  Download Certificate
+                </button>
+        </div>
+        <br />
+      </div>
+    </section> <br/>
+    <section id="projects">
+      <p class="section_text_p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./src/Form-Validation.png"
+                alt="form"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Form-Validation</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://codeakash27.github.io/Form-Validation/form.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <br />
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./src/calculator.png"
+                alt="calculator"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Calculator</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://codeakash27.github.io/calculator/index.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+            <br />
+          </div>
+          <br />
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./src/hms1.jpg"
+                alt="amozon"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Hospital Management System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://codeakash27.github.io/Amazon/amazon.html'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./src/arrow.png"
+        alt="arrow"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get In Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./src/email.png" alt="email icon" class="icon contact-icon email-icon"/>
+                <p><a href="https://mail.google.com/mail/u/0/#inbox?compose=new">praveenkumar4667383@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./src/linkedin.webp" alt="linkedin icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/praveen-kumar-s-28bba333a">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Experience">Experience</a></li>
+                    <li><a href="#Certificate">Certificate</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                  </ul>
+            </div>
+        </nav>
+        <p>Copyright &copy; 2025 Praveenkumar. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
